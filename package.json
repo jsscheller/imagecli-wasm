@@ -1,6 +1,6 @@
 {
   "name": "@jspawn/imagecli-wasm",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "imagecli compiled to WASM",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha.js --node-option experimental-wasm-bigint --node-option experimental-wasi-unstable-preview1 tests"
