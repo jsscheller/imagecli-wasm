@@ -1,0 +1,14 @@
+diff --git a/Cargo.toml b/Cargo.toml
+index 0442c06..c73e4b3 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -9,6 +9,9 @@ homepage = "https://github.com/theotherphil/imagecli"
+ license = "MIT"
+ exclude = ["images/*"]
+ 
++[profile.release]
++lto = true
++
+ [dependencies]
+ glob = "0.3.0"
+ image = "0.22.2"
