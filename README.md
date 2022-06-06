@@ -26,7 +26,7 @@ const wasi = new WASI({
   // Create a blank image.
   args: ["imagecli", "-o", "blank.jpg", "-p", "new 100 100 (255, 255, 0)"],
   preopens: {
-    ".": __dirname,
+    ".": ".",
   },
 });
 const importObject = { wasi_snapshot_preview1: wasi.wasiImport };
